@@ -1,0 +1,50 @@
+@import url(./modules/header.css);
+@import url(./modules/product.css);
+@import url(./modules/about.css);
+@import url(./modules/skils.css);
+@import url(./modules/footer.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html {
+    background-color: #F4EFFD;
+    font-family: 'Montserrat', Courier, monospace;
+    font-weight: 400;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1628px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}

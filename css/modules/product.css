@@ -1,0 +1,42 @@
+.product {}
+
+.container {}
+
+.product__body {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.product__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__title {
+    font-family: 'Anton', Courier, monospace;
+    font-weight: 400;
+    font-size: 177px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #925FF0;
+    opacity: 0.9;
+    text-align: center;
+    margin-bottom: 170px;
+}
+
+.product__img {}
+
+.product__imgs {
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.product__imgs:hover {
+    border: 1px solid #925FF0;
+    border-radius: 25%;
+
+}
